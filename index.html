@@ -675,7 +675,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <!--================End Footer Area =================-->
         
         
-        
+      <script>
+		  const api_url='https://travelnext.works/api/flight_trawex/authenticate?user_id=Dennis_testAPI&user_password=DennisTest@2021&access=Test&ip_address=105.160.26.215';
+  
+    fetch(api_url)
+    .then( response => response.json())
+    .then( data => console.log(data))
+    .catch(e =>{
+      console.log(e);
+    })
+	  </script>  
         
         
         
